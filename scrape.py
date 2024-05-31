@@ -1,11 +1,7 @@
-# chromedriver-win64/chromedriver-win64/chromedriver.exe
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 import time
-import os
 
 # path to the chromedriver
 driver_path = './chromedriver.exe'  
